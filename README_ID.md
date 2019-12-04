@@ -1,3 +1,5 @@
+__Language :__ [English](README.md) | Bahasa Indonesia
+
 # PHP Technical Task
 API untuk menyarankan resep makan siang
 
