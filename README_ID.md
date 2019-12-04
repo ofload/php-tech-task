@@ -25,7 +25,7 @@ that I can prepare based on the availability of ingredients in my fridge.
 
 __Additional Criteria__
 - The application SHOULD contains unit / integration tests (e.g. using `PHPUnit`).
-- The application MUST be completed using an OOP approach.
+- The application MUST be completed using an `OOP` approach.
 - The application MUST be `PSR` compliant.
 - Any dependencies MUST be installed using `Composer` (no need to commit dependencies, the
 composer.lock file will be sufficient).
@@ -33,13 +33,13 @@ composer.lock file will be sufficient).
 - Any installation, build steps, testing and usage instructions MUST be provided in a `README.md` file in the root of the application.
 
 ## Framework
-Use the Symfony micro framework (https://symfony.com/doc/current/setup.html) to create the application API. 
+Gunakan `Symfony micro framework` (https://symfony.com/doc/current/setup.html) untuk membuat aplikasi API.
 
 ## Application Data
-For the purpose of this task, the application should simply read data from 2 x JSON files. The contents for these files can be found [here](src/App/Ingredient/data.json) and [here](src/App/Recipe/data.json).
+Untuk tujuan task ini, Aplikasi harus dengan mudah membaca data dari 2 *JSON file* yang kami sediakan. Konten untuk *JSON file* ini dapat anda lihat [disini](src/App/Ingredient/data.json) dan [disini](src/App/Recipe/data.json).
  
 ## Submission
-The application should be committed to a __public repository__ on `GitHub` or `BitBucket` (`<lastname>-<firstname>-techtask-backend`) and simply send us a link to the repository.
+Aplikasi harus di *commit* ke __public repository__ di `GitHub` or `BitBucket` (`<lastname>-<firstname>-techtask-backend`) dan mohon informasikan link repository anda kepada kami.
 
 ## Bonus
-Configure a Docker environment so that we can test and run the application quickly. The application should be installed with a single command.
+Konfigurasikan sebuah *environment* `Docker`, sehingga dapat melakukan test dan menjalankan aplikasi dengan cepat. Aplikasi harus terinstall dalam satu perintah.
