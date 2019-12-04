@@ -15,31 +15,29 @@ Kriteria penilaian kami akan memperhatikan hal - hal berikut:
 - *Commits*, ini akan membantu kami untuk mengerti, bagaimana alur kerja dan keputusan anda selama mengerjakan *task* ini.
 
 ## User Story
-Sebagai *User*, saya ingin melakukan *request* ke *API* yang akan menentukan dari sekumpulan resep, apa yang bisa saya buat untuk makan siang hari ini berdasarkan isi kulkas saya, sehingga saya dapat memutuskan apa yang akan saya makan.
+Sebagai *User*, saya ingin melakukan *request* ke *API* yang akan menentukan dari sekumpulan resep, apa yang dapat saya persiapkan untuk makan siang hari ini, berdasarkan bahan - bahan di kulkas saya. Sehingga saya dapat memutuskan apa yang akan saya makan.
 
-__Acceptance Criteria__
-- Given that I have made a request to the `/lunch` endpoint I should receive a JSON response of the recipes 
-that I can prepare based on the availability of ingredients in my fridge.
-- Given that an ingredient is past its `use-by` date (inclusive), I should not receive recipes containing this ingredient.
-- Given that an ingredient is past its `best-before` date (inclusive), but is still within its `use-by` date (inclusive), any recipe containing the oldest (less fresh) ingredient should placed at the bottom of the response object.
+__Kriteria Utama__
+- Ketika saya melalukan request ke `/lunch` endpoint, saya harus mendapatkan *response* resep dalam bentuk `JSON`, yang dapat saya persiapkan berdasarkan bahan - bahan yang ada di kulkas saya.
+- Ketika ada bahan saya, yang sudah melewati tanggal `use-by`, saya harus tidak mendapatkan resep yang mengandung bahan tersebut.
+- Ketika ada bahan saya, yang sudah melewati tanggal `best-before`, tetapi masih belum melewatin tanggal `use-by`, resep yang mengandung bahan yang tidak segar, harus terletak pada bagian bawah dari *response*.
 
-__Additional Criteria__
-- The application SHOULD contains unit / integration tests (e.g. using `PHPUnit`).
-- The application MUST be completed using an `OOP` approach.
-- The application MUST be `PSR` compliant.
-- Any dependencies MUST be installed using `Composer` (no need to commit dependencies, the
-composer.lock file will be sufficient).
-- Use PHP5.6 or PHP7.
-- Any installation, build steps, testing and usage instructions MUST be provided in a `README.md` file in the root of the application.
+__Kriteria Tambahan__
+- Aplikasi HARUS memiliki unit / integration tests (contohnya `PHPUnit`).
+- Aplikasi HARUS diselesaikan dengan pendekatan `OOP`.
+- Aplikasi HARUS sesuai dengan `PSR`.
+- Semua dependencies HARUS diinstal melalui `Composer` (tidak perlu untuk commit dependencies, cukup `composer.lock` saja).
+- Gunakan PHP5.6 atau PHP7.
+- Semua instruksi untuk instalasi, cara build, testing dan menjalankan HARUS tersedia pada file `README.md` yang berada di folder utama aplikasi.
 
 ## Framework
 Gunakan `Symfony micro framework` (https://symfony.com/doc/current/setup.html) untuk membuat aplikasi API.
 
 ## Application Data
-Untuk tujuan task ini, Aplikasi harus dengan mudah membaca data dari 2 *JSON file* yang kami sediakan. Konten untuk *JSON file* ini dapat anda lihat [disini](src/App/Ingredient/data.json) dan [disini](src/App/Recipe/data.json).
+Untuk tujuan *task* ini, Aplikasi harus dengan mudah membaca data dari 2 *JSON file* yang kami sediakan. Konten untuk *JSON file* ini dapat anda lihat [disini](src/App/Ingredient/data.json) dan [disini](src/App/Recipe/data.json).
  
 ## Submission
-Aplikasi harus di *commit* ke __public repository__ di `GitHub` or `BitBucket` (`<lastname>-<firstname>-techtask-backend`) dan mohon informasikan link repository anda kepada kami.
+Aplikasi harus di *commit* ke __public repository__ di `GitHub` or `BitBucket` (`<lastname>-<firstname>-techtask-backend`) dan mohon informasikan *link repository* anda kepada kami.
 
 ## Bonus
 Konfigurasikan sebuah *environment* `Docker`, sehingga dapat melakukan test dan menjalankan aplikasi dengan cepat. Aplikasi harus terinstall dalam satu perintah.
