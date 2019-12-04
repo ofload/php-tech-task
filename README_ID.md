@@ -2,18 +2,18 @@
 API untuk menyarankan resep makan siang
 
 ## Manajemen Waktu
-Kami merekomendasikan anda untuk tidak menghabiskan lebih dari 2 jam untuk task ini, tetapi anda memiliki kebebasan dalam bagaimana anda mengatur waktu untuk menyelesaikan requirement yang kami minta.
+Kami merekomendasikan anda untuk tidak menghabiskan lebih dari 2 jam untuk *task* ini, tetapi anda memiliki kebebasan dalam bagaimana anda mengatur waktu untuk menyelesaikan *requirement* yang kami minta.
 
-## Assessment
+## Penilaian
 
-Our assessment criteria will pay attention on:
-- How the application is structured.
-- Code quality (Clean code).
-- Quality of tests.
-- Interpretation of the problem.
-- Use of `git`.
-- Implementation and final execution.
-- Commits, as this will allow us to understand some of the decisions you make throughout the process.
+Kriteria penilaian kami akan memperhatikan hal - hal berikut:
+- Bagaimana struktur aplikasinya. 
+- *Code quality (Clean code)*.
+- Kualitas dari *test* (*Unit test*).
+- Pengertian pada masalah.
+- Penggunaan `git`.
+- Implementasi dan eksekusi akhir.
+- *Commits*, ini akan membantu kami untuk mengerti, bagaimana alur kerja dan keputusan anda selama mengerjakan *task* ini.
 
 ## User Story
 As a User I would like to make a request to an API that will determine from a set of recipes what I can have for lunch today based on the contents of my fridge, so that I quickly decide what I’ll be having.
