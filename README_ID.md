@@ -5,7 +5,6 @@ API untuk menyarankan resep makan siang
 Kami merekomendasikan anda untuk tidak menghabiskan lebih dari 2 jam untuk *task* ini, tetapi anda memiliki kebebasan dalam bagaimana anda mengatur waktu untuk menyelesaikan *requirement* yang kami minta.
 
 ## Penilaian
-
 Kriteria penilaian kami akan memperhatikan hal - hal berikut:
 - Bagaimana struktur aplikasinya. 
 - *Code quality (Clean code)*.
@@ -16,7 +15,7 @@ Kriteria penilaian kami akan memperhatikan hal - hal berikut:
 - *Commits*, ini akan membantu kami untuk mengerti, bagaimana alur kerja dan keputusan anda selama mengerjakan *task* ini.
 
 ## User Story
-As a User I would like to make a request to an API that will determine from a set of recipes what I can have for lunch today based on the contents of my fridge, so that I quickly decide what I’ll be having.
+Sebagai *User*, saya ingin melakukan *request* ke *API* yang akan menentukan dari sekumpulan resep, apa yang bisa saya buat untuk makan siang hari ini berdasarkan isi kulkas saya, sehingga saya dapat memutuskan apa yang akan saya makan.
 
 __Acceptance Criteria__
 - Given that I have made a request to the `/lunch` endpoint I should receive a JSON response of the recipes 
