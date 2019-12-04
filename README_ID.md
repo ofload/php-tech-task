@@ -1,9 +1,8 @@
 # PHP Technical Task
-Suggested recipes for lunch API
+API untuk menyarankan resep makan siang
 
-## Time management
-We recommend you to not spend more than 2 hours in this task, but it's up to you how you manage your time
-to accomplish at least the requirements.
+## Manajemen Waktu
+Kami merekomendasikan anda untuk tidak menghabiskan lebih dari 2 jam untuk task ini, tetapi anda memiliki kebebasan dalam bagaimana anda mengatur waktu untuk menyelesaikan requirement yang kami minta.
 
 ## Assessment
 
