@@ -29,7 +29,7 @@ __Kriteria Tambahan__
 - Aplikasi HARUS diselesaikan dengan pendekatan `OOP`.
 - Aplikasi HARUS sesuai dengan `PSR`.
 - Semua dependencies HARUS diinstal melalui `Composer` (tidak perlu untuk commit dependencies, cukup `composer.lock` saja).
-- Gunakan PHP5.6 atau PHP7.
+- Gunakan `PHP5.6` atau `PHP7`.
 - Semua instruksi untuk instalasi, cara build, testing dan menjalankan HARUS tersedia pada file `README.md` yang berada di folder utama aplikasi.
 
 ## Framework
