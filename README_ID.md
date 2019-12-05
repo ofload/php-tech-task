@@ -4,7 +4,7 @@ __Language :__ [English](README.md) | Bahasa Indonesia
 API untuk menyarankan resep makan siang
 
 ## Manajemen Waktu
-Kami merekomendasikan anda untuk tidak menghabiskan lebih dari 2 jam untuk *task* ini, tetapi anda memiliki kebebasan dalam bagaimana anda mengatur waktu untuk menyelesaikan *requirement* yang kami minta.
+Tidak ada batasan waktu untuk mengerjakan *task* ini. Anda bebas mengatur waktu untuk menyelesaikan *requirement* yang kami minta.
 
 ## Penilaian
 Kriteria penilaian kami akan memperhatikan hal - hal berikut:

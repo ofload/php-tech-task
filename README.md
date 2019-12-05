@@ -4,8 +4,7 @@ __Language :__ English | [Bahasa Indonesia](README_ID.md)
 Suggested recipes for lunch API
 
 ## Time management
-We recommend you to not spend more than 2 hours in this task, but it's up to you how you manage your time
-to accomplish at least the requirements.
+There is no deadline to do this tech task. It's up to you how you manage your time to accomplish at least the requirements.
 
 ## Assessment
 
