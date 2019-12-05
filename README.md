@@ -27,7 +27,7 @@ that I can prepare based on the availability of ingredients in my fridge.
 - Given that an ingredient is past its `best-before` date (inclusive), but is still within its `use-by` date (inclusive), any recipe containing the oldest (less fresh) ingredient should placed at the bottom of the response object.
 
 __Additional Criteria__
-- The application SHOULD contains unit / integration tests (e.g. using `PHPUnit`).
+- The application SHOULD contains unit / integration tests (e.g. `PHPUnit`).
 - The application MUST be completed using an `OOP` approach.
 - The application MUST be `PSR` compliant.
 - Any dependencies MUST be installed using `Composer` (no need to commit dependencies, the
@@ -42,7 +42,7 @@ Use the `Symfony micro framework` (https://symfony.com/doc/current/setup.html) t
 For the purpose of this task, the application should simply read data from 2 x JSON files. The contents for these files can be found [here](src/App/Ingredient/data.json) and [here](src/App/Recipe/data.json).
  
 ## Submission
-The application should be committed to a __public repository__ on `GitHub` or `BitBucket` (`<lastname>-<firstname>-techtask-backend`) and simply send us a link to the repository.
+The application should be committed to a __public repository__ on `GitHub` or `BitBucket` (`<lastname>-<firstname>-techtask-php`) and simply send us a link to the repository.
 
 ## Bonus
 Configure a `Docker` environment so that we can test and run the application quickly. The application should be installed with a single command.

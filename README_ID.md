@@ -39,7 +39,7 @@ Gunakan `Symfony micro framework` (https://symfony.com/doc/current/setup.html) u
 Untuk tujuan *task* ini, Aplikasi harus dengan mudah membaca data dari 2 *JSON file* yang kami sediakan. Konten untuk *JSON file* ini dapat anda lihat [disini](src/App/Ingredient/data.json) dan [disini](src/App/Recipe/data.json).
  
 ## Submission
-Aplikasi harus di *commit* ke __public repository__ di `GitHub` or `BitBucket` (`<lastname>-<firstname>-techtask-backend`) dan mohon informasikan *link repository* anda kepada kami.
+Aplikasi harus di *commit* ke __public repository__ di `GitHub` or `BitBucket` (`<lastname>-<firstname>-techtask-php`) dan mohon informasikan *link repository* anda kepada kami.
 
 ## Bonus
 Konfigurasikan sebuah *environment* `Docker`, sehingga dapat melakukan test dan menjalankan aplikasi dengan cepat. Aplikasi harus terinstall dalam satu perintah.
